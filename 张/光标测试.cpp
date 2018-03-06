@@ -1,6 +1,6 @@
 #include<stdio.h>  
 #include<windows.h>  
-//获取光标的位置 
+//获取光标位置 
 int wherex()  
 {  
     CONSOLE_SCREEN_BUFFER_INFO pBuffer;  
