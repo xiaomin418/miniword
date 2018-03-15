@@ -2,7 +2,7 @@
 #include"main.h"
 #include"block.h"
 /****用到组员的子函数 *****/
-
+void insert(location loca);//插入字符（串）
 /************判断是否是进行了块操作 **********/
 
 bool copy(void)
@@ -115,13 +115,31 @@ bool block_fun(void)//块操作功能
     'z' and 'Z' for cancel;
     'n' and 'N' for create a new file;
     */
+	char sign;
+	sign = func();
     /****首先判断块操作会否取消*****/
-    if(!func())//表明未选中功能键，清空剪贴板 
-    {
-    	color.clear();//清空color 
-	clip.clear(); //清空贴板
-	return false; 
-    } 
+    switch(sign) 
+	if (sign == '\0')//表明未选中功能键，清空剪贴板 
+	{
+		color.clear();//清空color 
+		clip.clear(); //清空贴板
+		return false;
+	}
+	else if (sign == 'c' || sign == 'C') //块选时已经复制到了剪贴板 
+	{
+	   color.clear();//清空color,	取消高亮 
+	   return  true; 
+	 } 
+	else if(sign=='v'||sign=='V')
+	{
+		if(!clip.empty())//首先判断剪贴板是否有内容
+		return false;
+		else
+		{
+		   insert(location loca);
+		}
+	}
+	
 }
 
 void hotkey(void)//热键操作
