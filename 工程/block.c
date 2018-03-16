@@ -2,7 +2,7 @@
 #include"main.h"
 #include"block.h"
 /****用到组员的子函数 *****/
-void insert(location loca);//插入字符（串）
+//void insert(location loca);//插入字符（串）
 /************判断是否是进行了块操作 **********/
 
 bool copy(void)
@@ -136,7 +136,7 @@ bool block_fun(void)//块操作功能
 		return false;
 		else
 		{
-		   insert(location loca);
+		;//   insert(location loca);
 		}
 	}
 	

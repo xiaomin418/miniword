@@ -4,9 +4,9 @@
 CPP      = g++.exe -D__DEBUG__
 CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = main.o
-LINKOBJ  = main.o
-LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lgraphics -lgdi32 -limm32 -lmsimg32 -lole32 -loleaut32 -lwinmm -luuid -mwindows -m32 -g3
+OBJ      = main.o block.o exit.o init.o print.o
+LINKOBJ  = main.o block.o exit.o init.o print.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lgraphics -lgdi32 -limm32 -lmsimg32 -lole32 -loleaut32 -lwinmm -luuid -m32 -g3
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
 BIN      = ÏîÄ¿3.exe
@@ -26,3 +26,15 @@ $(BIN): $(OBJ)
 
 main.o: main.c
 	$(CPP) -c main.c -o main.o $(CXXFLAGS)
+
+block.o: block.c
+	$(CPP) -c block.c -o block.o $(CXXFLAGS)
+
+exit.o: exit.c
+	$(CPP) -c exit.c -o exit.o $(CXXFLAGS)
+
+init.o: init.c
+	$(CPP) -c init.c -o init.o $(CXXFLAGS)
+
+print.o: print.c
+	$(CPP) -c print.c -o print.o $(CXXFLAGS)

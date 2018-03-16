@@ -1,4 +1,11 @@
 # miniword
-OUR BIG WORK!
-¿âÁ´½Ó²ÎÊý£º
--lgraphics -lgdi32 -limm32 -lmsimg32 -lole32 -loleaut32 -lwinmm -luuid -mwindows
+The following words record everyone's own files, other please don't revise it before the owner's permission! 
+
+Xiao Min:
+block.c
+
+Wu Xinya:
+print.c
+
+Zhang Tingyi:
+
