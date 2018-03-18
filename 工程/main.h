@@ -30,7 +30,11 @@ typedef struct Location{  //存放字符位置的数组
     int length;//字符长度 
 }Location;
 
-
+struct lastopr{//用于记录上一步操作 
+    int type;//用于记录事件类型
+    struct Location start;//
+    struct Location end; 
+}Lastopr; 
 int mx;//鼠标横坐标x
 int my;//鼠标纵坐标y
 vector<char>clip;//剪贴板 
