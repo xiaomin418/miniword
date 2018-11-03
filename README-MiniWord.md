@@ -27,5 +27,6 @@
 
 预览效果
 
-![1541255102093](C:\Users\1wxyw\AppData\Roaming\Typora\typora-user-images\1541255102093.png)
+![1541255102093](
+        miniword/图片1.png)
 
