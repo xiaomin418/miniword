@@ -26,4 +26,4 @@
 
 
 预览效果
-![Image text](http://github.com/qwerwxyz/miniword/图片1.png)
+![截图](图片1.png)
