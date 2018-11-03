@@ -27,5 +27,5 @@
 
 预览效果
 
-![1541255102093]( miniword/图片1.png)
+![图片1.png](miniword/图片1.png)
 
