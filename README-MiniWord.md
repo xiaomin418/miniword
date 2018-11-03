@@ -27,5 +27,5 @@
 
 预览效果
 
-![图片1.png](https://github.com/qwerwxyz/miniword/图片1.png)
+![图片1.png](https://raw.github.com/qwerwxyz/repositpry/master/miniword/图片1.png）
 
