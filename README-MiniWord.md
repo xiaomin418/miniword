@@ -26,4 +26,4 @@
 
 
 预览效果
-![Image text](https://raw.github.com/qwerwxyz/repositpry/master/miniword/图片1.png)
+![Image text](http://github.com/qwerwxyz/miniword/图片1.png)
